@@ -189,7 +189,6 @@ fun <T> AnimatedLazyColumn(
     ) {
         header(this)
         for ((index, entry) in collection.entries.withIndex()) {
-
             item(entry.id) {
                 AnimatedItem(
                     item = entry,
