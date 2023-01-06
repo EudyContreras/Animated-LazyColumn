@@ -1,3 +1,5 @@
+
+
 class ExampleViewModel: ViewModel() {
     val adapter: LazyAnimatedColumnAdapter<String> = LazyAnimatedColumnAdapter(emptyList(), isReversed = true)
 
